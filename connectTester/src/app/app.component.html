@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-md navbar-custom">
+  <div class="navbar-collapse w-100 order-1 order-md-0">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" style="color: white">Mustang Integrations</a>
+      </li>
+    </ul>
+  </div>
+  <div class="mx-auto order-0">
+    <a class="navbar-brand mx-auto" routerLink="/default" id="hide">
+      <img src="../assets/blacklogo.png" />
+    </a>
+  </div>
+  <div class="navbar-collapse w-100 order-3">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a routerLink="/bar-chart" id="fade" class="nav-link">Bar Chart</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/doughnut-chart" id="fade" class="nav-link"
+          >Doughnut Chart</a
+        >
+      </li>
+      <li class="nav-item">
+        <a routerLink="/radar-chart" id="fade" class="nav-link">Radar Chart</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/pie-chart" id="fade" class="nav-link">Pie Chart</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/table-view" id="fade" class="nav-link">Table View</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>

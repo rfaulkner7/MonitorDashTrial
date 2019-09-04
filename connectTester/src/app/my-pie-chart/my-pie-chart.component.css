@@ -1,0 +1,16 @@
+.mat-form-field-label {
+  color: white !important;
+}
+.mat-form-field-underline {
+  background-color: white !important;
+}
+.mat-form-field-ripple {
+  background-color: red !important;
+}
+#outer {
+  width: 100%;
+  text-align: center;
+}
+.inner {
+  display: inline-block;
+}
